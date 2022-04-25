@@ -14,10 +14,14 @@ body {
 
 /* HEADER */
 .cabecalho {
+    width: 90%;
+    max-width: 1500px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
     padding: 24px;
+    padding-left: 0;
 }
 
 .cabecalho-imagem {
@@ -43,8 +47,11 @@ body {
 }
 
 .conteudo-principal {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
